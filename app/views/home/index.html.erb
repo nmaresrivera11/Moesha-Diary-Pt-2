@@ -1,0 +1,11 @@
+<h1> Moesha's Diary Part II </h1>
+
+<ul>
+  <% @blogs.each do |blog| %>
+    <li>
+    <%= link_to blog.title, blog_path(blog)%>
+    </li>
+  <% end %>
+</ul>
+
+<br/>
