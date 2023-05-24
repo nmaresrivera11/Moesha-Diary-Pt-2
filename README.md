@@ -90,8 +90,16 @@ As a developer, I have been commissioned to create a blog post application. As a
 - Has a route for update
 - Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action
 - Can be rerouted to the landing page when a valid blog post is updated
+- Has a controller action for update
+- Has a route for update
+- Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action
+- Can be rerouted to the landing page when a valid blog post is updated
 
 ---
+
+---
+
+### Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
 
 ### Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
 
@@ -103,8 +111,16 @@ As a developer, I have been commissioned to create a blog post application. As a
 - Ensure all blog post titles are unique
 - - Ensure that blog post titles are at least 4 characters
 - Ensure that blog post content is at least 10 characters
+- Ensure all blog posts have titles and content for each post (non-nil, non-blank values)
+- Ensure all blog post titles are unique
+- - Ensure that blog post titles are at least 4 characters
+- Ensure that blog post content is at least 10 characters
 
 ---
+
+---
+
+### Story 9: In order to enjoy the blog post application, as a user of the application, I need to see pleasant styling.
 
 ### Story 9: In order to enjoy the blog post application, as a user of the application, I need to see pleasant styling.
 
@@ -112,4 +128,5 @@ As a developer, I have been commissioned to create a blog post application. As a
 
 #### Acceptance Criteria
 
+- Has pleasant styles on each page of the application
 - Has pleasant styles on each page of the application
