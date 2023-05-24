@@ -8,8 +8,6 @@ As a developer, I have been commissioned to create a blog post application. As a
 
 #### Branch: blog-new
 
-#### Acceptance Criteria
-
 - Has a controller action for new
 - Has a route for new
 - Has a view for new
