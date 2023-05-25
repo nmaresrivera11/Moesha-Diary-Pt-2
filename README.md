@@ -4,35 +4,6 @@ As a developer, I have been commissioned to create a blog post application. As a
 
 ---
 
-### Story 4: In order to interact with the blog post application, as a user of the application, I need to create a new blog post.
-
-#### Branch: blog-create
-
-#### Acceptance Criteria
-
-- Has a controller action for create
-- Has a route for create
-- Can fill out a form for a new blog post and click on a submit button that will - trigger a create action
-- Can be rerouted to the landing page when a valid blog post is created
-
----
-
-## 🏔 Stretch Goals
-
-### Story 5: In order to interact with the blog post application, as a user of the application, I need to delete a new blog post.
-
-#### Branch: blog-delete
-
-#### Acceptance Criteria
-
-- Has a controller action for delete
-- Has a route for delete
-- Can see a button on the show page to delete the blog post
-- Can click on the button to perform a delete action
-- Can be rerouted to the landing page when a blog post is deleted
-
----
-
 ### Story 6: In order to interact with the blog post application, as a user of the application, I need to see a form where I can fill out information to edit an existing blog post.
 
 #### Branch: blog-edit

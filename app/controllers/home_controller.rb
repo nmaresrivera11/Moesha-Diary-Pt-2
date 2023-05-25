@@ -4,6 +4,10 @@ def index
   @blogs = Blog.all
 end
 
+def show
+  @blog = Blog.find(params[:id])
+end
+
 def new
   @blog = Blog.new
 end
@@ -15,12 +19,12 @@ def create
   end
 end
 
-def show
+def destroy
   @blog = Blog.find(params[:id])
+  if @blog.destroy
+    redirect_to blogs_path
+  end
 end
-
-
-
 
 private
   def form_params
