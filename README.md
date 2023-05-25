@@ -4,20 +4,6 @@ As a developer, I have been commissioned to create a blog post application. As a
 
 ---
 
-### Story 3: In order to interact with the blog post application, as a user of the application, I need to see a form where I can fill out information for a new blog post.
-
-#### Branch: blog-new
-
-- Has a controller action for new
-- Has a route for new
-- Has a view for new
-- Can navigate from the landing page to the view of the new page
-- Can see a form for title and content
-- Can see a submit button
-- Can navigate back from the new page to the landing page
-
----
-
 ### Story 4: In order to interact with the blog post application, as a user of the application, I need to create a new blog post.
 
 #### Branch: blog-create

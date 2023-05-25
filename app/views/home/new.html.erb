@@ -1,0 +1,15 @@
+<h3> Create a new blog post </h3>
+
+<%= form_with model: @blog do |form| %>
+  <%= form.label :title %> :
+  <br/>
+  <%= form.text_field :title %>
+  <br/>
+  <br/>
+  <%= form.label :content %>
+  <br/>
+  <%= form.text_area :content %>
+  <br/>
+  <br/>
+  <%= form.submit 'Submit your entry' %>
+<% end %>

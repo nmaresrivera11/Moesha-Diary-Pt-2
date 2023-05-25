@@ -4,8 +4,26 @@ def index
   @blogs = Blog.all
 end
 
+def new
+  @blog = Blog.new
+end
+
+def create
+  @blog = Blog.create(form_params)
+  if @blog.valid?
+    redirect_to blogs_path
+  end
+end
+
 def show
   @blog = Blog.find(params[:id])
 end
 
+
+
+
+private
+  def form_params
+    params.require(:blog).permit(:title, :content)
+  end
 end
