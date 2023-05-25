@@ -23,6 +23,13 @@ def edit
   @blog = Blog.find(params[:id])
 end
 
+def update
+  @blog = Blog.find(params[:id])
+  @blog.update(form_params)
+  if @blog.valid?
+    redirect_to blogs_path
+  end
+end
 
 def destroy
   @blog = Blog.find(params[:id])
