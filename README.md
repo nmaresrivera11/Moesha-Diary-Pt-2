@@ -12,9 +12,7 @@ As a developer, I have been commissioned to create a blog post application. As a
 
 #### Acceptance Criteria
 
-- Ensure all blog posts have titles and content for each post (non-nil, non-blank values)
-- Ensure all blog post titles are unique
-- - Ensure that blog post titles are at least 4 characters
+- Ensure that blog post titles are at least 4 characters
 - Ensure that blog post content is at least 10 characters
 - Ensure all blog posts have titles and content for each post (non-nil, non-blank values)
 - Ensure all blog post titles are unique
