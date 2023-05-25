@@ -2,5 +2,8 @@
 <h4> <%= @blog.content %> </h4>
 <br/>
 
-<%= link_to 'Back to Home', blogs_path %>
+<%= link_to 'Edit Post', edit_path %>
+<br/>
 <%= button_to 'Delete Post', delete_blog_path, method: :delete %>
+<br/>
+<%= link_to 'Back to all posts', blogs_path %>
