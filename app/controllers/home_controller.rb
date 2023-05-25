@@ -19,6 +19,11 @@ def create
   end
 end
 
+def edit
+  @blog = Blog.find(params[:id])
+end
+
+
 def destroy
   @blog = Blog.find(params[:id])
   if @blog.destroy
