@@ -6,13 +6,10 @@ As a developer, I have been commissioned to create a blog post application. As a
 
 ### Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
 
-### Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
-
 #### Branch: blog-validations
 
 #### Acceptance Criteria
 
-- Ensure that blog post titles are at least 4 characters
 - Ensure that blog post content is at least 10 characters
 - Ensure all blog posts have titles and content for each post (non-nil, non-blank values)
 - Ensure all blog post titles are unique
@@ -20,10 +17,6 @@ As a developer, I have been commissioned to create a blog post application. As a
 - Ensure that blog post content is at least 10 characters
 
 ---
-
----
-
-### Story 9: In order to enjoy the blog post application, as a user of the application, I need to see pleasant styling.
 
 ### Story 9: In order to enjoy the blog post application, as a user of the application, I need to see pleasant styling.
 

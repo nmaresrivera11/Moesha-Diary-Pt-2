@@ -18,4 +18,9 @@ RSpec.describe Blog, type: :model do
     expect(blog.errors[:title]).to_not eq(:title)
   end
 
+  it 'should have a title that is longer than 4 characters' do
+    blog = Blog.create(title: 'May', content: 'Today I went to the super market. I saw a dog run acro')
+    expect(blog.title.length).not_to be > 4
+  end
+
 end
